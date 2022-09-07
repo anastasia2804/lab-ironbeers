@@ -1,6 +1,4 @@
 <h1>My Beers Page</h1>
 {{#each beerArray}}
-<img src="{{this.image_url}}"/>
-<p>{{this.name}}</p>
-<p>{{this.tagline}}</p>
+{{> beerpartial this}}
 {{/each}}
